@@ -1,13 +1,13 @@
 /*Base*/
-@import url("/assets/css/base/base.css");
-@import url("/assets/css/base/exception.css");
-@import url("/assets/css/base/variables.css");
+@import url("../base/base.css");
+@import url("../base/exception.css");
+@import url("../base/variables.css");
 
 /*Components*/
-@import url("/assets/css/components/bouton.css");
-@import url("/assets/css/components/form.css");
-@import url("/assets/css/components/boiteModale.css");
-@import url("/assets/css/components/modeNuit.css");
+@import url("../components/bouton.css");
+@import url("../components/form.css");
+@import url("../components/boiteModale.css");
+@import url("../components/modeNuit.css");
 
 /*Pages*/
 @import url("/assets/css/pages/apropos.css");
