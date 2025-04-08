@@ -1,4 +1,4 @@
-import navigation from "./components/navigation.js";
+import navigation from "../js/components/navigation.js";
 
 function init() {
   navigation();

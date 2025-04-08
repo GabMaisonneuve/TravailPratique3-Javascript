@@ -1,7 +1,7 @@
 //Importations des fonctions et constructeurs
-import carrousel from "./components/carrousel.js";
-import boiteModale from "./components/boiteModale.js";
-import navigation from "./components/navigation.js";
+import carrousel from "../js/components/carrousel.js";
+import boiteModale from "../js/components/boiteModale.js";
+import navigation from "../js/components/navigation.js";
 
 function init() {
   carrousel();
