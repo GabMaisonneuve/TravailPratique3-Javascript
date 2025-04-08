@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-family: "Arial", sans-serif;
+  background-color: var(--couleur-bg);
+  color: var(--couleur-texte);
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section > * + * {
+  margin-top: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+h2 {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  transition: all 350ms;
+}
+
+li {
+  list-style: none;
+}
+
+a:hover {
+  color: rgb(188, 93, 93);
+  text-decoration: underline;
+}
+a.actif {
+  color: rgb(188, 93, 93);
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+/* ENTETE */
+header {
+  padding: 2rem;
+  background-color: rgba(232, 232, 232, 0.8);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+nav {
+  display: flex;
+  gap: 3rem;
+}
+
+nav .nav__liste {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}

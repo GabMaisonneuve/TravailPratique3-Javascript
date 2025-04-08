@@ -1,0 +1,8 @@
+Codes
+Fichiers créer en composantes, format modulaire et les params pour les fonctions sont mis, je n'ai pas fais la classe scrollAnimator. Le choix de design est très simple, juste suffisant pour faire le Tp honnêtement! La session est un peu chargée, je vais améliorer quelques choses et me pratiquer d'avantage pour le bonifier durant les vacances!
+
+Difficultés
+Tout! Les projets Javascript on été très stimulant, pas facile mais amusant :) J'ai dû revoir les vidéos YouTube et relire les cours à mainte reprise pour chaque fonctionnalités (mode sombre, carrousel, boîte modale), je crois pouvoir les refaire sans vérifier rien maintenant mais avec beaucoup de temps 
+
+Satisfaction
+Très satisfaisant de voir le code fonctionner et agir comme nous le voulons!

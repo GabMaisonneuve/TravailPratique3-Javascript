@@ -1,0 +1,25 @@
+[data-page="a-propos"] {
+  & main,
+  & section {
+    position: relative;
+    width: 100%;
+  }
+}
+
+.carrousel__image-conteneur {
+  display: flex;
+  justify-content: center;
+
+  & img {
+    max-width: 90%;
+    max-height: 700px;
+  }
+}
+
+.carrousel_controles {
+  display: flex;
+  justify-content: center;
+  & .bouton {
+    max-width: 50%;
+  }
+}

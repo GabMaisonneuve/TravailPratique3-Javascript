@@ -1,0 +1,8 @@
+[data-mode] {
+  display: flex;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  margin-left: auto;
+  cursor: pointer;
+}

@@ -1,0 +1,9 @@
+.invisible {
+  display: none !important;
+}
+
+.inactif {
+  pointer-events: none;
+  background-color: lightslategray;
+  color: darkslategray;
+}

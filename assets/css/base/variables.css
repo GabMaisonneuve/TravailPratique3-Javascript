@@ -1,0 +1,11 @@
+:root {
+  --couleur-bg: rgb(252, 252, 252);
+  --couleur-texte: black;
+  --couleur-principale: rgb(240, 240, 240);
+  --couleur-accent: darkslategrey;
+}
+
+[data-theme="nuit"] {
+  --couleur-bg: rgba(80, 73, 73, 0.685);
+  --couleur-texte: white;
+}

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travail pratique 2</title>
+    <script src="assets/js/formulaire.js" defer></script>
+    <script src="assets/js/components/navigation.js" defer></script>
+    <link rel="stylesheet" href="assets/css/pages/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav id="nav-principale">
+        <ul class="nav__liste"></ul>
+      </nav>
+    </header>
+    <h1>Formulaire d'achat</h1>
+    <form action="" method="post">
+      <section data-page="0" class="infos-client">
+        <h2>Informations sur le client</h2>
+        <div class="input-groupe">
+          <label for="nom">Nom complet</label>
+          <input
+            type="text"
+            id="nom"
+            name="nom"
+            minlength="3"
+            maxlength="100"
+            required
+          />
+          <p class="message-erreur invisible"></p>
+        </div>
+        <div class="input-groupe">
+          <label for="adresse">Adresse</label>
+          <input type="text" id="adresse" name="adresse" required />
+          <p class="message-erreur invisible"></p>
+        </div>
+        <div class="input-groupe">
+          <label for="email">Courriel</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            maxlength="100"
+            required
+          />
+          <p class="message-erreur invisible"></p>
+        </div>
+        <div class="input-groupe">
+          <label for="ville">Ville</label>
+          <input type="text" id="ville" name="ville" required />
+          <p class="message-erreur invisible"></p>
+        </div>
+        <div class="input-groupe">
+          <label for="Numéro de téléphone">Numéro de téléphone</label>
+          <input type="tel" id="telephone" name="telephone" required />
+          <p class="message-erreur invisible"></p>
+        </div>
+        <div class="input-groupe">
+          <label for="poste">Code postal</label>
+          <input type="text" name="code-postal" id="poste" required />
+          <p class="message-erreur invisible"></p>
+        </div>
+      </section>
+
+      <section data-page="1" class="infos-livraison">
+        <h2>Informations sur la livraison</h2>
+        <div class="input-groupe">
+          <label for="date">Date idéale de livraison</label>
+          <input
+            type="date"
+            id="date"
+            name="date"
+            min="2025-02-26"
+            max="2025-05-01"
+            value="2025-02-26"
+            required
+          />
+          <p class="message-erreur invisible"></p>
+        </div>
+
+        <div class="input-groupe">
+          <label for="livraison-magasin">Livraison en magasin</label>
+          <input
+            type="checkbox"
+            id="livraison-magasin"
+            name="livraison-magasin"
+          />
+
+          <select id="succursale">
+            <option value="quebec">Succursale de Québec</option>
+            <option value="saint-sauveur">Succursale de Saint-Sauveur</option>
+            <option value="montreal">Succursale de Montréal</option>
+          </select>
+        </div>
+        <div class="input-groupe">
+          <h2>Service de livraison</h2>
+          <label for="poste-canada">Poste Canada</label>
+          <input
+            type="radio"
+            id="poste-canada"
+            name="service-livraison"
+            value="Poste Canada"
+            checked
+          />
+          <label for="fedEx">FedEx</label>
+          <input
+            type="radio"
+            id="fedEx"
+            name="service-livraison"
+            value="FedEx"
+          />
+          <label for="ups">UPS</label>
+          <input type="radio" id="ups" name="service-livraison" value="UPS" />
+        </div>
+      </section>
+      <section data-page="2" class="resume">
+        <h2>Résumé</h2>
+        <div class="resume__client">
+          <h3>Client</h3>
+          <p>Nom: <span id="resume-nom"></span></p>
+          <p>Adresse: <span id="resume-adresse"></span></p>
+          <p>Courriel: <span id="resume-email"></span></p>
+          <p>Ville: <span id="resume-ville"></span></p>
+          <p>Telephone: <span id="resume-telephone"></span></p>
+          <p>Code Postal: <span id="resume-code-postal"></span></p>
+        </div>
+        <!-- <div class="resume__produit">
+          <h3>Produit</h3>
+          <p>Date: <span id="resume-date"></span></p>
+          <p>Succursale: <span id="resume-succursale"></span></p>
+          <p>
+            Service de livraison: <span id="resume-service-livraison"></span>
+          </p>
+        </div> -->
+      </section>
+      <div class="form-navigation">
+        <div class="bouton" data-direction="-1">Retour</div>
+        <div class="bouton" data-direction="1">Continuer</div>
+        <input class="bouton" type="submit" value="Envoyer" />
+      </div>
+    </form>
+  </body>
+</html>

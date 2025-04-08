@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>À propos</title>
+    <script src=" https://cdn.jsdelivr.net/npm/animejs@3.2.2/lib/anime.min.js "></script>
+    <script src="assets/js/apropos.js" type="module"></script>
+    <link rel="stylesheet" href="assets/css/pages/style.css" />
+  </head>
+  <body data-page="a-propos">
+    <header>
+      <nav id="nav-principale">
+        <ul class="nav__liste"></ul>
+        <ul data-mode>
+          <li data-mode-option="nuit">
+            <img src="assets/img/8666735_moon_icon.svg" alt="lune" />
+          </li>
+          <li data-mode-option="jour">
+            <img src="assets/img/8666699_sun_icon.svg" alt="Soleil" />
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="carrousel">
+        <h1 class="carrousel__titre">Albums</h1>
+        <div class="carrousel__conteneur">
+          <div class="carrousel__liste">
+            <div class="carrousel__image-conteneur">
+              <img src="assets/img/albumN1.jpg" alt="Album1" />
+            </div>
+
+            <div class="carrousel__image-conteneur">
+              <img src="assets/img/albumN2.jpg" alt="album2" />
+            </div>
+
+            <div class="carrousel__image-conteneur">
+              <img src="assets/img/albumN3.jpg" alt="Album3" />
+            </div>
+
+            <div class="carrousel__image-conteneur">
+              <img src="assets/img/albumN4.jpg" alt="album4" />
+            </div>
+
+            <div class="carrousel__image-conteneur">
+              <img src="assets/img/albumN5.jpg" alt="album5" />
+            </div>
+          </div>
+        </div>
+        <div class="carrousel_controles">
+          <div class="carrousel__precedent bouton" data-direction="-1">
+            Précédent
+          </div>
+          <div class="carrousel__suivant bouton" data-direction="1">
+            Suivant
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer></footer>
+  </body>
+</html>

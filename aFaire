@@ -1,0 +1,42 @@
+Objectifs et consignes
+
+Dans ce travail, vous allez bâtir sur ce que vous avez appris dans le travail pratique précédent. Vous devrez
+créer une page publicitaire animée de votre site sur lequel vous avez travaillé dans le TP2 et TP1. Cela peut
+être la page à propos, aubaines, promotions, etc. Vous devez utiliser les concepts suivants:
+Propagation d'événements
+Animation CSS et JavaScript
+Module JavaScript
+Stockage local
+Événement de défilement de la page
+
+Fonctionnalités
+Votre page doit contenir une boite modale de votre choix qui s'affiche après 5 secondes. Vous n'avez
+pas à gérer la donnée qu'elle contient (ex: abonnement infolettre). Elle doit minimalement contenir un
+bouton pour la fermer et pouvoir se cacher au clic.
+
+Vous devez ajouter un carrousel d'image qui défile automatiquement. Vous devez ajouter des boutons
+pour naviguer manuellement dans le carrousel. Vous devez ajouter un effet d'animation lors du
+changement d'image. Le défilement automatique s'exécute en boucle à l'infini.
+
+Vous devrez également ajouter un effet d'animation ou de transitions lors de l'interaction avec plusieurs
+éléments de la page (survol, clic). Vous devez animer au moins 5 éléments différents par CSS ET
+JavaScript.
+
+Vous devez implémenter un mode sombre/clair pour la page qui sera sauvegardé dans le local storage
+et dont l'état sera conservé lors du rechargement de la page. Vous devez n'utiliser qu'un seul écouteur
+d'événement pour gérer le changement de mode et ses boutons.
+
+Vos scripts doivent être divisés en modules qui seront importés/exportés dans le fichier principal.
+Chaque module doit être dans son propre fichier JavaScript. Un script pour la page, un pour le
+carrousel, un pour le mode sombre, un pour la boite modale.
+
+Analysez et faites fonctionner la classe ScrollAnimator fournie avec le TP3. Vous devez l'utiliser pour
+faire apparaître des éléments de la page lors du défilement de la page.
+
+Finalement, vous devrez mettre en ligne votre travail sur Github Pages.
+
+Chaque fonction doit être documentée en utilisant le format JSDoc.
+Le script principal de votre page doit être englobé dans une IIFE (Immediately Invoked Function
+Expression).
+Bien que non réévalué, il est apprécié si le reste de votre site est fonctionnel. Vous n'avez pas à tout
+transformer en module. Simplement que les autres pages soient fonctionnelles
